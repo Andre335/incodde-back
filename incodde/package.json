@@ -1,0 +1,17 @@
+{
+  "name": "incodde",
+  "version": "1.0.0",
+  "description": "desafio da incodde",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andre Goncalves",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {}
+}
