@@ -5,7 +5,7 @@ const cors = require('cors');
 
 router.get('/', Crawler.findTodaysCurrency);
 
-router.get('/DayCurrency', Crawler.findCurrencyByDay);
+router.post('/DayCurrency', cors(), Crawler.findCurrencyByDay);
 
 router.post('/PeriodCurrency', cors(), Crawler.findCurrencyByPeriod);
 
